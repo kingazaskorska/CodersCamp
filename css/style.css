@@ -1,9 +1,42 @@
 .box{
-display-grid:
-grid-templade-columns:1fr 1fr;
+display:grid;
+grid-template-columns:40% 60%;
 }
+
 .navlist{
 display:flex;
 justify-content:space-between;
 list-style-type:none;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+}
+.content{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+justify-content:space-between;
+}
+.opis1{
+
+  text-align: center;
+}
+
+.content_img{
+  display: flex;
+justify-content: center;
+  align-items:center;
+
+}
+.title1{
+
+  text-align: center;
+
+}
+.button{
+padding: 0% 10% 0%;
+text-align: center;
+}
+.container{
+  background-color: lightgrey;
 }
