@@ -49,7 +49,6 @@ justify-content: center;
 }
 
 .button{
-
 padding: 0% 10% 0%;
 dispalay:block;
 text-align: center;
@@ -142,3 +141,30 @@ justify-content: flex-start;
     align-items:center;
     height: 100%;
     margin-left: 5%;
+}
+.container4{
+  background-image: url("../bg.png");
+width: 100%;
+}
+.opis4{
+  padding:0% 50% 5% 10%;
+  text-align:left;
+  font-size: 20px;
+}
+.title4{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: 25px;
+  margin-left: 10%;
+}
+.form{
+  display:grid;
+  grid-template-columns:30% 70%;
+  padding-right: 40%;
+  padding-left: 10%;
+}
+.type{
+  display: flex;
+  justify-content: flex-end;
+}
